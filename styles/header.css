@@ -1,0 +1,153 @@
+.header{
+  height: 100px;
+  display:flex;
+  margin-top: 0px;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0px;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: gray;
+  z-index: 100
+}
+
+.left{
+ position: fixed;
+ left: 0px;
+ bottom: 0px;
+ top: 80px;
+ z-index: 200;
+ 
+}
+
+.video-grid{
+  margin-left: 100px;
+  margin-right: 50px;
+}
+
+.left-section{
+  align-items: center;
+
+
+  
+}
+
+.hamburger{
+  height: 40px;
+  margin-top: 20px;
+  
+}
+
+.yt{
+ height: 40px; 
+ width: 120px;
+ margin-top: 10px;
+ border-radius: 10px;
+
+}
+
+.middle-section{
+  flex: 1;
+  max-width: 500px;
+  width: 300px;
+  align-items: center;
+
+
+}
+.search-bar{
+  height: 30px;
+  margin-right: 0px;
+ margin-top: 20px;
+ border-radius: 30px;
+flex: 1;
+padding-left: 15px;
+border-width: 5px;
+border-style: bold;
+border-color: grey;
+box-shadow: grey;
+
+ 
+}
+
+.search-bar::placeholder{
+  font-family: roboto, ariel;
+  font-size: 16px;
+
+}
+
+.zoom{
+  position: relative;
+  height: 30px;
+ width: 40px;
+ color: white;
+ position: relative;
+
+  }
+
+
+
+  .mic{
+    height: 30px;
+    border-radius: 30px;
+   
+  }
+
+
+
+
+.right-section {
+  width: 300px;
+  flex-shrink: 0;
+ 
+}
+
+.cam{
+  height: 30px;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 30px;
+
+}
+
+.bell{
+  height: 30px;
+  align-items: center;
+  margin-right: 110px;
+  border-radius: 30px;
+
+}
+.notifications-count{
+  position: absolute;
+    position: absolute;
+    bottom: 75px;
+    right: 140px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 1px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    font-style: bold;
+    font-size: 15px;
+  }
+  
+.zoom .tool-tip{
+  position: absolute;
+  background-color: grey;
+  color: white;
+  padding-left: 4px;
+    padding-right: 4px;
+    bottom: -20px;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.zoom:hover .tool-tip{
+  opacity: 1;
+
+}
+
